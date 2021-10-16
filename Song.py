@@ -1,16 +1,10 @@
 '''
-[s1 > s2 > s1 > s4] - True
-[s1 > s2 > s3 > s4] - False
+https://www.testdome.com/questions/javascript/song/48414
 
-[s1 > s2 > s1] 
-playlist = [s1, s2]
-song = s1
+A playlist is considered a repeating playlist if any of the songs contain a reference to a previous song in the playlist. Otherwise, the playlist will end with the last song which points to undefined.
 
-[s1] 
-playlist = [s1, None]
-song = 
+Implement the method isRepeatingPlaylist that, efficiently with respect to time used, returns true if a playlist is repeating or false if it is not.
 '''
-
 
 class Song:
     def __init__(self, name):

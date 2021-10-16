@@ -1,3 +1,9 @@
+'''
+https://leetcode.com/problems/pascals-triangle/
+
+Given an integer numRows, return the first numRows of Pascal's triangle.
+'''
+
 def factorial(num): 
     factorial = 1 
     for i in range(1, num + 1): 
